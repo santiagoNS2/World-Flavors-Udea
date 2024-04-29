@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}body{
+    margin: 0;
+    background-image: url("images/img8.jpg");
+    background-color: #8b8989;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1250px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.search h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+    cursor: pointer;
+    
+    
+ }
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #cce202;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: px;
+    margin-top: 10px;
+   
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    color : #ffffff;
+}
+.search {
+    position: relative;
+   
+    display: inline-block;
+    height: 30vh;
+    
+  }
+.search #opcionBusqueda {
+    position: absolute;
+    height: 30px;
+    width: 180px;
+    top: 80%;
+    left: 7px;
+    background-color: #e3e9ad;
+    border: 1px solid #d3e71a;
+    border-radius: 90px 90px 90px 90px;
+    cursor: pointer;
+  }
+#opcionBusqueda option {
+    background-color: #dbdae2;
+    border: 1px solid #d3e71a;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+width: 200px;
+height: 30px;
+border: 1px solid #d3e71a;
+border-radius: 90px 90px 90px 90px;
+padding: 5px;
+font-size: 14px;
+background-color: #d3df6a;
+  }
+
+main .menu{
+  display: grid;
+  grid-template-rows: auto  auto auto; /* Divide el contenedor en 3 filas */
+  border-top: 10px solid #d3e71a; /* Ancho, estilo y color del borde */
+
+
+}
+.menu .titulo{
+    display: flex;
+}
+.menu .imagenylista{
+    display: flex;
+    margin-left: 10vw;
+}
+.menu .instrucciones{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10%;
+    padding: 25px;
+}
+.menu .nombre{
+    flex:1;
+    text-decoration: double;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(162, 248, 64, 0.2); 
+    border-radius: 90px;
+    position: relative;
+    width: auto; 
+    
+    
+}
+.menu .ingredientes{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10%;
+    position: relative;
+    font-size: 25px;
+    width: 40%; 
+}
+
+.menu .icon{
+    margin: 10px;
+    border-radius: 10%;
+    position: relative;
+    width:500px;
+}
+
+.menu p{
+    text-decoration: none;
+    color: #fafafa;
+    border-radius: 5px;
+    position: relative; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* Footer */
+
+
+footer p {
+    margin-bottom: 0;
+    top: 100px;
+    left: 200px;
+    align-self: center;
+    justify-self: flex-end;
+    color: #ffffff;
+}
+.menu1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define tres columnas de igual ancho */
+    gap: 15px; /* Espacio entre los elementos */
+  }
+  
+.nombre1 {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 10px; /* Añade espacio alrededor del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+.icon1 {
+    display: block; /* Asegura que la imagen esté en su propia línea */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 100px;
+    transition: transform 0.3s ease; /* Transición suave de 0.3 segundos */
+  }
+.icon1:hover {
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+  }
+
+  
